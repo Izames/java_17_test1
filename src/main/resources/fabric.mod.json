@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "java_17_test1",
+  "version": "${version}",
+  "name": "java_17_test1",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/geday/java_17_test1"
+  },
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.yuichiro_a.java_17_test1.client.Java_17_test1Client"
+    ],
+    "main": [
+      "net.yuichiro_a.java_17_test1.Java_17_test1"
+    ]
+  },
+  "mixins": [
+    "java_17_test1.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.17",
+    "fabric": "*",
+    "minecraft": "1.19.3"
+  }
+}
